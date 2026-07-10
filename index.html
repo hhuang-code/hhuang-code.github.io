@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hao Huang</title>
+<meta name="description" content="Hao Huang — Post Doctoral Associate at New York University Abu Dhabi. Research on world models, computer vision, video generation and editing, and AI for science.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">Hao Huang</a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('nl').classList.toggle('open')">☰</button>
+    <div class="nav-links" id="nl">
+      <a href="index.html" class="active">Academic</a>
+      <a href="publications.html">Publications</a>
+      <!--
+      <a href="teaching.html">Teaching</a>
+      <a href="realme.html">RealMe</a>
+      -->
+
+    </div>
+  </div>
+</nav>
+
+<main class="wrap">
+  <div class="hero">
+    <img class="hero-photo" src="assets/img/profile.jpg" alt="Hao Huang" onerror="this.style.display='none'">
+    <div>
+      <h1>Hao Huang</h1>
+      <p class="role">Post Doctoral Associate, New York University Abu Dhabi</p>
+      <div class="socials">
+        <a href="https://github.com/hhuang-code/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=SsZ7BooAAAAJ" target="_blank" rel="noopener">Scholar</a>
+        <a href="mailto:hh1811@nyu.edu">Email</a>
+        <a href="https://drive.google.com/file/d/1D4oeWrpohD32jmsEgOzIyY5AvApXJfm0" target="_blank" rel="noopener">CV</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- News section — add news items here for future use
+  <div class="news">
+    <p><span class="flag">🌟</span><strong>News:</strong> </p>
+  </div>
+  -->
+
+
+
+  <section id="about">
+    <h2>About</h2>
+    <p><span class="flag">👤</span> I am currently a Post Doctoral Associate at the <a href="https://nyuair.github.io/website/" target="_blank" rel="noopener">NYU Embodied AI and Robotics Lab</a> and the <a href="https://cair.nyuad.nyu.edu/" target="_blank" rel="noopener">Center for AI and Robotics (CAIR)</a> at NYU Abu Dhabi (NYUAD). Prior to this, I completed my Ph.D. at the Tandon School of Engineering, New York University (NY City), under the supervision of Prof. <a href="https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/yi-fang.html" target="_blank" rel="noopener">Yi Fang</a>. I earned my B.Eng. degree in Digital Media Technology and my M.S. degree in Computer Science from Beijing University of Posts and Telecommunications, China, the latter under the supervision of Prof. <a href="https://teacher.bupt.edu.cn/mahuadong/en/index.htm" target="_blank" rel="noopener">Huadong Ma</a>, followed by an M.S. degree in Computer Science from University of Rochester, USA, under the supervision of Prof. <a href="https://cliangxu.github.io/" target="_blank" rel="noopener">Chenliang Xu</a>.</p>
+  </section>
+
+  <section id="research">
+    <h2>My Research</h2>
+    <p>My research is dedicated to advancing <em class="hl-blue">robotics</em> that are robust, adaptable, and equitable through the development of intelligent, AI-driven methods, incorporating innovations in <em class="hl-blue">3D computer vision</em>, <em class="hl-blue">signal analysis</em>, <em class="hl-blue">multimodal foundation models</em>, <em class="hl-blue">imitation learning</em> and <em class="hl-blue">reinforcement learning</em> to enhance robotic perception, motion and reasoning. By combining theoretical insights with practical applications, I aim to develop robotic systems that prioritize accuracy, efficiency, and safety, enabling intelligent interaction with complex environments.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <ul class="clean-list">
+      <li><span class="date">Jan 2023 – now</span> · Post Doctoral Associate @ New York University Abu Dhabi</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Cool Robot Videos</h2>
+    <div class="carousel">
+      <button class="carousel-btn" type="button" aria-label="Previous videos" onclick="robotScroll(-1)">‹</button>
+      <div class="carousel-track" id="robotTrack">
+        <!-- 1 --><div class="card"><video src="assets/video/kitchen.mp4#t=0.5" controls muted loop playsinline preload="metadata"></video><div class="cap">Kitchen manipulation</div></div>
+        <!-- 2 --><div class="card"><video src="assets/video/gamap.mp4#t=0.5" controls muted loop playsinline preload="metadata"></video><div class="cap">GaMap: zero-shot object navigation</div></div>
+        <!-- 3 --><div class="card"><video src="assets/video/chain_of_action.mp4#t=0.5" controls muted loop playsinline preload="metadata"></video><div class="cap">Embodied chain-of-action reasoning</div></div>
+        <!-- 4 --><div class="card"><video src="assets/video/a2c.mp4#t=0.5" controls muted loop playsinline preload="metadata"></video><div class="cap">A2C for multi-robot collaboration</div></div>
+        <!-- 5 --><div class="card"><video class="vfull" src="assets/video/g1_charleston.mp4#t=0.5" controls muted loop playsinline preload="metadata"></video><div class="cap">Humanoid Charleston dance</div></div>
+        <!-- 6 --><div class="card"><video class="vfull" src="assets/video/g1_kungfu_sidekick.mp4#t=0.5" controls muted loop playsinline preload="metadata"></video><div class="cap">Humanoid kung-fu side kick</div></div>
+        <!-- 7 --><div class="card"><video class="vfull" src="assets/video/h1_foottap.mp4#t=0.5" controls muted loop playsinline preload="metadata"></video><div class="cap">Humanoid foot-tap dance</div></div>
+        <!-- 8 --><div class="card"><video src="assets/video/h2compact.mp4#t=0.5" controls muted loop playsinline preload="metadata"></video><div class="cap">Human–humanoid co-manipulation</div></div>
+        <!-- 9 --><div class="card"><video src="assets/video/dex_pick_place.mp4#t=0.5" controls muted loop playsinline preload="metadata"></video><div class="cap">Dexterous pick-and-place</div></div>
+        <!-- 10 --><div class="card"><video src="assets/video/spatial.mp4#t=0.5" controls muted loop playsinline preload="metadata"></video><div class="cap">VLM for zero-shot object navigation</div></div>
+      </div>
+      <button class="carousel-btn" type="button" aria-label="Next videos" onclick="robotScroll(1)">›</button>
+    </div>
+  </section>
+
+  <!-- Awards section — add award items here for future use
+  <section id="awards">
+    <h2>Awards</h2>
+    <ul class="clean-list two-col">
+      <li><span class="date"></span> · </li>
+    </ul>
+  </section>
+  -->
+
+  <!-- Invited Talks section — add talk items here for future use
+  <section id="talks">
+    <h2>Invited Talks</h2>
+    <ul class="clean-list">
+      <li><span class="date"></span> · </li>
+    </ul>
+  </section>
+  -->
+
+  <section id="service">
+    <h2>Academic Services</h2>
+    <p style="color:var(--muted);font-size:.92rem;margin-top:8px;"><strong style="color:var(--ink);">Area Chair:</strong> ICPR 2026; WACV 2026, 2027.</p>
+    <p style="color:var(--muted);font-size:.92rem;margin-top:8px;"><strong style="color:var(--ink);">Co-chair:</strong> International Symposium on Artificial Intelligence for Engineering Innovations (<a href="https://haoyu6427.github.io/AIE2025/" target="_blank" rel="noopener">AIE 2025</a>); Embodied AI: Trends, Challenges, and Opportunities (<a href="https://emai-workshop.github.io/" target="_blank" rel="noopener">EMAI 2024</a>, in conjunction with IEEE ICIP 2024).</p>
+    <p style="color:var(--muted);font-size:.92rem;margin-top:8px;"><strong style="color:var(--ink);">Conference Reviewer:</strong> CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS, WACV, BMVC, ICPR, ICIP, IROS, ICRA, CoRL.</p>
+    <p style="color:var(--muted);font-size:.92rem;margin-top:8px;"><strong style="color:var(--ink);">Journal Reviewer:</strong> IEEE Transactions on Multimedia (TMM), IEEE Robotics and Automation Letters (RA-L), Pattern Recognition, Pattern Recognition Letters, Engineering Applications of Artificial Intelligence, Neurocomputing, Information Fusion, Robotics and Autonomous Systems.</p>
+  </section>
+</main>
+
+<footer class="footer">
+  © <span id="yr"></span> Hao Huang · Built with plain HTML/CSS · Hosted on GitHub Pages
+</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+<script>
+function robotScroll(dir){
+  var t=document.getElementById('robotTrack');
+  var card=t.querySelector('.card');
+  var step=card?card.offsetWidth+18:280;
+  t.scrollBy({left:dir*step,behavior:'smooth'});
+}
+</script>
+</body>
+</html>
