@@ -87,6 +87,7 @@ h3 { font-family:var(--font); font-size:1.1rem; margin:20px 0 6px; }
 .ic-code { background-image:url("img/ic-code.svg"); }
 .ic-webpage { background-image:url("img/ic-webpage.svg"); }
 .ic-supp { background-image:url("img/ic-supp.svg"); }
+.ic-dataset { background-image:url("img/ic-dataset.svg"); }
 .pub-links a.pl.ic-arxiv { width:50px; background-image:url("img/ic-arxiv.svg"); background-size:38px auto; }
 .pub-section { font-family:var(--font); font-size:1.12rem; margin:30px 0 2px; padding-bottom:6px; border-bottom:1px solid var(--line); }
 .pub-note { color:var(--muted); font-size:.82rem; margin:4px 0 0; }
